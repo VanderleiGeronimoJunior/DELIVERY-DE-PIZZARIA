@@ -871,10 +871,11 @@ gap: 2.5rem;
         top: 115%;
         right: 110%;
         width: 30rem;
-        background-color: var(--cor-texto-padrao);
+        background-color: var(--cor-padrao);
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
     }
+    /* ABREMENU RESPONSIVO */
     .topo-site .menu-site.active{
         right: 2rem;
         transition: .4s linear;
@@ -883,9 +884,14 @@ gap: 2.5rem;
         display: block;
         font-size: 2rem;
         margin: 2rem 2.5rem;
-        color: #000;
-        border-bottom: 1px solid #000;
+        color: #fff;
+        border-bottom: 1px solid #fff;
         border-bottom-style: dotted;
+        overflow: hidden;
+    }
+    .topo-site .menu-site a:hover{
+        color: gold;
+        font-weight: 600;
     }
     .slide-destaque .slide .content h3{
         font-size: 4rem;
